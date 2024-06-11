@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Utkarsha Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">U</span> Utkarsha</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Utkarsha<br />Ui-Ux<br />Designer</h1>
+        </div>
+        <p class="section__description">
+          Welcome to my Portfolio! I'm a passionate UI-UX Designer dedicated
+          to creative user-centric designs that are both visually appealing and 
+          highly functional. With keen eye for detail and a deep understanding of 
+          user behaviour, I strive to deliver seamless digital experiences.
+          Explore my work to see how I blend creativity with technical expertise to bring
+          ideas to life. 
+        </p>
+        <div class="header__btn">
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
+        <img src="assets/header.jpg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Bit About Me</h2>
+        <p class="section__description">
+          Hello! I'm Utkarsha Gouttam, a UI/UX Designer with a passion for creating intuitive and engaging digital experiences. I excel in user research, wireframing, and visual design. My approach is rooted in empathy, ensuring that every design decision meets the user's needs and enhances their experience. I blend creativity with analytical thinking to solve design challenges and deliver seamless user experiences.
+<br>
+When I'm not designing, you can find me exploring new places, which often inspires new ideas and perspectives in my work. Let's connect and create something amazing together!
+        </p>
+        <div class="about__btn">
+          <a href="assets/UI-UX.pdf" download="UI-UX.pdf" >
+          <button class="btn">Download CV</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">My Skills</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Website Design</h4>
+          <p>
+            I craft user-friendly interfaces that engage visitors and help you
+            achieve your online goals with minimum efforts.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>Mobile App Design</h4>
+          <p>
+            I craft user-friendly interfaces that engage visitors and help you
+            achieve your online goals with minimum efforts.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Website Development</h4>
+          <p>
+            I craft user-friendly interfaces that engage visitors and help you
+            achieve your online goals with minimum efforts.
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">My PRojects</h2>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('All')">All</button>
+        <button class="button-value" onclick="filterProduct('WebDesign')">WebDesign</button>
+        <button class="button-value" onclick="filterProduct('AppDesign')">AppDesign</button>
+        <button class="button-value" onclick="filterProduct('WebDevelopment')">WebDevelopment</button>
+      </div>
+      <div class="portfolio__grid">
+        <div class="portfolio__card WebDevelopment">
+          <a href="./Foodman_17-02-24-main/index.html">
+          <img src="assets/project-1.png" alt="portfolio" />
+          </a>
+        </div>
+        <div class="portfolio__card WebDesign">
+          <img src="assets/project-2.png" alt="portfolio" />
+        </div>
+        <div class="portfolio__card WebDevelopment">
+          <a href="./Globetrekker travel website landing page/index.html">
+          <img src="assets/project-3.png" alt="portfolio" />
+          </a>
+        </div>
+        <div class="portfolio__card AppDesign">
+          <img src="assets/project-4.png" alt="portfolio" />
+        </div>
+        <div class="portfolio__card AppDesign" >
+          <img src="assets/project-5.png" alt="portfolio" />
+        </div>
+        <div class="portfolio__card AppDesign">
+          <img src="assets/project-6.png" alt="portfolio" />
+        </div>
+      </div>
+
+      
+      <div class="portfolio__banner">
+        <div class="portfolio__banner__card">
+          <span><i class="ri-macbook-line"></i></span>
+          <h4>100+ Projects</h4>
+          <p>Created</p>
+        </div>
+        <div class="portfolio__banner__card">
+          <span><i class="ri-discuss-line"></i></span>
+          <h4>10k+ Social Media </h4>
+          <p>Followers</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">U</div>
+      <div class="connect">
+      <h2 class="section__header">Let's Talk With Me!</h2>
+      <div class="contact-me">
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+    
+        <input type="hidden" name="access_key" value="358ea873-672e-44b4-96a7-f052c6fbb51b">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </div>
+      </div>
+     
+      <div class="contact__socials">
+        <a href="https://github.com/utkarsh019996"><i class="ri-github-fill"></i></a>
+        <a href="https://www.linkedin.com/in/utkarsha-gouttam-865669a6/"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://www.behance.net/utkarshagouttam1"><i class="ri-behance-fill"></i></a>
+        <a href="https://dribbble.com/utkarsh019996"><i class="ri-dribbble-line"></i></a>
+        <a href="https://www.youtube.com/channel/UC27ZdD6ZHMaJbNDXYNM0HUQ"><i class="ri-youtube-fill"></i></a>
+        <a href="https://www.instagram.com/webcodejourneyy?igsh=ZDc1OWFiN3VhaHhv"><i class="ri-instagram-fill"></i></a>
+      </div>
+    </section>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
